@@ -24,7 +24,7 @@ out & submit feedback!
 
 Installation
 --------------------------
-  > pip install git+https://github.com/trotsky1997/pylatexenc.git
+  pip install git+https://github.com/trotsky1997/pylatexenc.git
 
 
 
