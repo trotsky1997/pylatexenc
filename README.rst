@@ -22,6 +22,13 @@ to be as backwards compatible as is reasonably possible.  Feel free to try it
 out & submit feedback!
 
 
+Installation
+--------------------------
+  > pip install git+https://github.com/trotsky1997/pylatexenc.git
+
+
+
+
 Unicode Text to LaTeX code
 --------------------------
 
