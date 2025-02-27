@@ -1263,8 +1263,9 @@ class LatexNodes2Text(object):
             if node.isNodeType(latexwalker.LatexMathNode):
                 delims = node.delimiters
             else: # environment node
-                delims = (r'\begin{%s}'%(node.environmentname),
-                          r'\end{%s}'%(node.environmentname),)
+                # delims = (r'\begin{%s}'%(node.environmentname),
+                #           r'\end{%s}'%(node.environmentname),)
+                delims = ('$$','$$',)
             if node.isNodeType(latexwalker.LatexEnvironmentNode) \
                or node.displaytype == 'display':
                 return delims[0] + self._fmt_indented_block(content, indent='') + delims[1]
